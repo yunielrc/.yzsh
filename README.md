@@ -22,7 +22,7 @@ git clone https://gitlab.com/yunielrc/yzsh-data.git ~/.yzsh
 Clone the repository
 
 ```sh
-git clone https://gitlab.com/yunielrc/yzsh && cd yzsh
+git clone https://gitlab.com/yunielrc/yzsh.git && cd yzsh
 ```
 
 Install
@@ -35,13 +35,13 @@ End with an example of getting some data out of the system or using it for a lit
 
 ## Configure
 
+Add `plugins` and `themes` in `~/.yzsh`
+
 Edit the configuration file to choice your theme and plugins
 
 ```sh
 vim ~/.yzsh.env
 ```
-
-Add `plugins` and `themes` in `~/.yzsh`
 
 ## Usage
 
