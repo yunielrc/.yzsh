@@ -14,7 +14,7 @@ My YZSH data
 Clone the repository
 
 ```sh
-git clone https://gitlab.com/yunielrc/yzsh-data.git ~/.yzsh
+git clone https://github.com/yunielrc/.yzsh.git ~/.yzsh
 ```
 
 #### Install yzsh
@@ -22,7 +22,7 @@ git clone https://gitlab.com/yunielrc/yzsh-data.git ~/.yzsh
 Clone the repository
 
 ```sh
-git clone https://gitlab.com/yunielrc/yzsh.git && cd yzsh
+git clone https://github.com/yunielrc/yzsh.git && cd yzsh
 ```
 
 Install
