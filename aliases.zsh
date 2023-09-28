@@ -26,3 +26,9 @@ alias xclip="xclip -selection clipboard"
 
 # node
 alias node-v8-version='node -p process.versions.v8'
+
+# free
+alias free='free -h'
+
+# df
+alias df='df -hTx squashfs'
