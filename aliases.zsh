@@ -38,3 +38,7 @@ alias grub-install-efi='sudo grub-install --target=x86_64-efi --efi-directory=/b
 
 # grub-mkconfig
 alias grub-mkconfig-default='sudo grub-mkconfig -o /boot/grub/grub.cfg'
+
+# mogrify
+alias mogrify-png2jpg="find . -type f -iname '*.png' -exec mogrify -format jpg -background white -alpha remove -alpha off {} +"
+alias rm-png="find . -type f -iname '*.png' -delete"
