@@ -43,3 +43,7 @@ alias grub-mkconfig-default='sudo grub-mkconfig -o /boot/grub/grub.cfg'
 alias mogrify-png2jpg="find . -type f -iname '*.png' -exec mogrify -format jpg -background white -alpha remove -alpha off {} +"
 alias rm-png="find . -type f -iname '*.png' -delete"
 alias mogrify-resizejpg="find . -type f -iname '*.jpg' -exec mogrify -resize 110% {} +"
+
+# memory
+alias mem='free -h; echo; swapon --show; echo; zramctl'
+alias mem-live="watch -n 1 'zsh -ic \"mem\"'"
