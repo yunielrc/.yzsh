@@ -1,0 +1,3 @@
+sudo paccache -rk 0
+sudo journalctl --vacuum-time=2days
+sudo rm -rf /var/lib/systemd/coredump/*
